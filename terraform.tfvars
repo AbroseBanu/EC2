@@ -1,0 +1,12 @@
+region = "eu-north-1"
+cidr_vpc = "10.0.0.0/16"
+vpc_name = "my_vpc_abrose"
+cidr_subnet = "10.0.0.0/24"
+subnet_name = "subnet1"
+availability_zone = "eun1-az1"
+sg_name = "mysg_abrose"
+instance_type = "t3.micro"
+ami = "ami-09a9858973b288bdd"
+key_name = "serv1.pem"
+iname = "Abrose-instance"
+instance_count = 3
