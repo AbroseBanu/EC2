@@ -24,9 +24,9 @@ This Terraform project provisions an AWS EC2 environment, including a VPC, subne
 
 ## 📌 Setup Instructions
 
-Clone the repository: git clone https://github.com/AbroseBanu/EC2.git && cd EC2
-Initialize Terraform: terraform init
-Validate configuration: terraform validate
-Plan deployment: terraform plan
-Apply changes to deploy infrastructure: terraform apply -auto-approve
-Retrieve EC2 instance IPs: terraform output
+- **Clone the repository**: `git clone https://github.com/AbroseBanu/EC2.git && cd EC2`  
+- **Initialize Terraform**: `terraform init`  
+- **Validate configuration**: `terraform validate`  
+- **Plan deployment**: `terraform plan`  
+- **Apply changes to deploy infrastructure**: `terraform apply -auto-approve`  
+- **Retrieve EC2 instance IPs**: `terraform output`  
